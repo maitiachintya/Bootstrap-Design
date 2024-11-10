@@ -1,0 +1,135 @@
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-head {
+  background-color: thistle;
+}
+
+.l-text {
+  font-size: 20px;
+  color: blue;
+}
+
+.face-icon {
+  font-size: 20px;
+}
+
+.main-nav {
+  background-color: tan;
+}
+
+.main-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav ul li {
+  list-style-type: none;
+}
+
+.main-nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: red;
+}
+
+.sec-1 {
+  /* padding: 40px 0 40px 0; */
+  /* height: 600px; */
+  /* background: url(../images/slider1.jpg)no-repeat center center;
+    background-size: 100% 100%; */
+  position: relative;
+}
+
+.sec-1 h1 {
+  font-size: 50px;
+  color: tomato;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sec-1-box p {
+  font-size: 20px;
+  color: rgb(0, 255, 55);
+}
+
+.card-sec {
+  background-color: rgb(160, 200, 232);
+}
+
+.card-box img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.card-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.card-text {
+  padding: 20px;
+  text-align: justify;
+  align-items: center;
+}
+
+.card-text h2 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(5, 69, 19);
+}
+
+.card-text p {
+  font-size: 20px;
+  color: tomato;
+}
+
+.card-box:hover img {
+  transform: scale(1.5);
+}
+
+.sec-2 {
+  background-color: salmon;
+}
+
+.sec-2-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-foot {
+  background-color: rosybrown;
+}
+
+.main-foot ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main-foot ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.main-foot ul li a {
+  font-size: 20px;
+  text-align: left;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 50px;
+  width: 50px;
+}
